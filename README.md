@@ -4,7 +4,7 @@ installation (do it by order)
 
 sudo apt install python3.10-venv
 
-python -m venv insta-env
+python3 -m venv insta-env
 
 source insta-env/bin/activate  # Linux/Mac
 
