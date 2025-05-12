@@ -1,4 +1,4 @@
-# insightnet_zfn
+# Installation
 data mining tool for Instagram
 installation (do it by order)
 
@@ -11,3 +11,8 @@ source insta-env/bin/activate
 pip install -r requirements.txt
 
 python3 sn2.py
+
+# useful command
+
+deactivate
+
