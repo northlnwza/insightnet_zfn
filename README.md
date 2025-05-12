@@ -11,3 +11,5 @@ source insta-env/bin/activate  # Linux/Mac
 insta-env\Scripts\activate  # Windows
 
 pip install -r requirements.txt
+
+pytohn3 sn2.py
