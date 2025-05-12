@@ -315,3 +315,5 @@ if __name__ == "__main__":
         assert np.__version__.startswith('1.24'), "Please install numpy==1.24.3"
         main()
     except Exception as e:
+        print(f"⚠️ Setup error: {str(e)}")
+        print("Recommended: pip install numpy==1.24.3 pandas matplotlib selenium bs4 webdriver-manager selenium-stealth")

@@ -1,0 +1,20 @@
+# Python
+venv/
+insta-env/
+.env
+*.pyc
+__pycache__/
+*.egg-info/
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Selenium/Chrome
+chromedriver.log
+chromedriver.exe
