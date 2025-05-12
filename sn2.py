@@ -277,8 +277,8 @@ class InstagramScraper:
 
 def main():
     # Configuration
-    USERNAME = os.getenv("IG_USERNAME", "insightnet_zfn")
-    PASSWORD = os.getenv("IG_PASSWORD", "zfn116243118")
+    USERNAME = os.getenv("IG_USERNAME", "put username here")
+    PASSWORD = os.getenv("IG_PASSWORD", "put password here")
     HASHTAG = "food"  # Change to your target hashtag
     
     # Run scraper
@@ -315,5 +315,3 @@ if __name__ == "__main__":
         assert np.__version__.startswith('1.24'), "Please install numpy==1.24.3"
         main()
     except Exception as e:
-        print(f"⚠️ Setup error: {str(e)}")
-        print("Recommended: pip install numpy==1.24.3 pandas matplotlib selenium bs4 webdriver-manager selenium-stealth")
