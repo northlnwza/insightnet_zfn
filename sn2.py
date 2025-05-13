@@ -302,8 +302,8 @@ class InstagramScraper:
 
 def main():
     # Configuration
-    USERNAME = os.getenv("IG_USERNAME", "put username here")
-    PASSWORD = os.getenv("IG_PASSWORD", "put password here")
+    USERNAME = str(input("username: "))
+    PASSWORD = str(input("password: ")) 
     HASHTAG = "food"  # Change to your target hashtag
 
     # Run scraper
